@@ -1,0 +1,133 @@
+@keyframes text {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes tweetAni {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pieChart {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes pie1Chart {
+    0% {
+        fill: #00BFA6;
+    }
+    33% {
+        fill: #3F3D56;
+    }
+    66% {
+        fill: #575A89;
+    }
+    100% {
+        fill: #00BFA6;
+    }
+}
+
+@keyframes pie2Chart {
+    0% {
+        fill: #575A89;
+    }
+    33% {
+        fill: #00BFA6;
+    }
+    66% {
+        fill: #3F3D56;
+    }
+    100% {
+        fill: #575A89;
+    }
+}
+
+@keyframes pie3Chart {
+    0% {
+        fill: #3F3D56;
+    }
+    33% {
+        fill: #575A89;
+    }
+    66% {
+        fill: #00BFA6;
+    }
+    100% {
+        fill: #3F3D56;
+    }
+}
+
+@keyframes hand {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(2deg);
+    }
+}
+
+@keyframes head {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(-2deg);
+    }
+}
+
+.searchSVG {
+    /* position: relative; */
+    /* top: 267px;  */
+    bottom: -90px;
+    max-width: 100%;
+    height: auto;
+}
+
+#TweetID {
+    animation: tweetAni 3s 0.9s alternate infinite linear;
+    opacity: 0;
+}
+
+#PieID {
+    animation: pieChart 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#Pie1ID {
+    animation: pie1Chart 9s infinite linear;
+}
+
+#Pie2ID {
+    animation: pie2Chart 9s infinite linear;
+}
+
+#Pie3ID {
+    animation: pie3Chart 9s infinite linear;
+}
+
+#HandID {
+    animation: hand 2s alternate infinite linear;
+    transform-origin: right;
+}
+
+#HeadID {
+    animation: head 2s alternate infinite linear;
+    transform-origin: right;
+}

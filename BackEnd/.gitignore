@@ -1,0 +1,14 @@
+# Directories
+/__pycache__
+/.vscode
+/archive
+/.venv
+
+# Files
+keys_token.py
+*.html
+chromedriver.exe
+client.py
+get_tweets.py
+socket server.py
+index.html

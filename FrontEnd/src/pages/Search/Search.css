@@ -1,0 +1,241 @@
+  .column {
+    float: left;
+    animation: text 2s ease;
+  }
+  .row{
+    width: 100%;
+    height: 100%;
+  }
+  .left {
+    width: 40%;
+    padding-left: 80px;
+    padding-top: 70px;
+  }
+
+  .right {
+    width: 60%;
+    text-align: center;
+  }
+  .loading{
+    margin: auto;
+  }
+  .loadingCount{
+    padding-top: 1vh;
+  }
+  .analysisResult{
+    display: none;
+  }
+  .pieData{
+    width: 100%;
+  }
+  .pieChart{
+    width: 70%;
+    float:left;
+  }
+  .chartLine{
+    margin-top: 20vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .piePercentage{
+    width: 30%;
+    float: right;
+    margin-top: 10vh;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 37px;
+  }
+  .positiveSquare{
+    color:#00BFA6;
+    padding-right:7px;
+  }
+  .neutralSquare{
+    color:#575A89;
+    padding-right:7px;
+  }
+  .negativeSquare{
+    color:#3F3D56;
+    padding-right:7px;
+  }
+  .downloadreport{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 1.1vh;
+    line-height: 37px;
+    font-weight: bold;
+  }
+  .reportlink{
+    color: #00BFA6;
+    cursor: pointer;
+    text-decoration: underline,bold;
+    font-weight: 400;
+  }
+  .top5PositiveTitle{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-left:.8vw ;
+    /* border-left: 7px solid #00BFA6; */
+    font-weight: bold;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  .leftborderpositivetitle{
+    border-left: 7px solid #00BFA6;
+    padding-left:.8vw ;
+  }
+  .leftbordernegativetitle{
+    border-left: 7px solid #3F3D56;
+    padding-left:.8vw ;
+  }
+  .top5NegativeTitle{
+    text-align:center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-left:.8vw ;
+    /* border-left: 7px solid #3F3D56; */
+    font-weight: bold;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+  }
+ 
+  .showPositiveNegativeTweets{
+    display: none;
+  }
+  .tweetFetch{
+    margin: 2vh 0 1vh 0;
+  }
+  .tweetFetchCount{
+    border-left: 7px solid #00BFA6;
+    padding-left:.8vw ;
+    background: rgba(77, 210, 193, 0.4);
+    padding: .5vw;
+    font-size: 1.1rem;
+    line-height: 37px;
+  }
+  .overallResult{
+    margin: .8vh 0 .8vh 0;
+    font-weight: bold;
+  }
+  .overallResultPositive{
+    background-color: #00BFA6;
+    padding: 4px;
+    margin-left: .5vw;
+    border-radius: 5px;
+  }
+  .overallResultNegative{
+    background-color: #3F3D56;
+    padding: 4px;
+    margin-left: .5vw;
+    border-radius: 5px;
+  }
+  .overallResultNeutral{
+    background-color: #575A89;
+    padding: 4px;
+    margin-left: .5vw;
+    border-radius: 5px;
+  }
+  .mapTweet {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-left:.8vw ;
+    font-weight: bold;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+  }
+  .mapTitle{
+    border-left: 7px solid #0071A4;
+    padding: .5vw;
+    font-size: 1.1rem;
+    line-height: 37px;
+    background: #C8EEFF;
+    padding-left:.8vw ;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column {
+      width: 100%;
+    }
+    .left {
+      padding: 0px 50px 10px 50px;
+      /* top:-100px; */
+    }
+    .right {
+      top: 50px;
+      padding: 0;
+      /* padding-left: 20px; */
+    }
+    .pieChart{
+      width: 100%;
+    }
+    .chartLine{
+      margin-top: 5vh;
+      padding-left: 6vw;
+      padding-right: 6vw;
+    }
+    .piePercentage{
+      width: 100%;
+      text-align: center;
+      margin-top: 2vh;
+      font-size: 1rem;
+    }
+    .top5PositiveTitle{
+      margin-top: 3vh;
+      margin-bottom: 3vh;
+      text-align: center;
+      border : 0;
+    }
+    .top5positivetweets{
+      margin: auto;
+    }
+    .leftborderpositivetitle{
+      border-left: 7px solid #00BFA6;
+      padding-left:.8vw ;
+    }
+    .top5NegativeTitle{
+      margin-top: 3vh;
+      margin-bottom: 3vh;
+      text-align: center;
+      border : 0;
+    }
+    .top5negativetweets{
+      margin: auto;
+    }
+    .leftbordernegativetitle{
+      border-left: 7px solid #3F3D56;
+      padding-left:.8vw ;
+    }
+    .tweetFetch{
+      margin: 4vh 0 1vh 0;
+    }
+    .loadingTweets{
+      margin : auto;
+    }
+  }
+
+  @media screen and (max-width: 513px) {
+    .left {
+      padding: 0px 30px 10px 30px;
+    }
+    /* .right {
+      padding-top: 20px;
+    } */
+  }
+
+  .tweet-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .twitter-tweet {
+    width: 30rem;
+  }
+
+  .twitter-tweet-rendered {
+    box-shadow: 0.5rem 0.5rem 2rem rgb(0 0 0 / 20%);
+  }

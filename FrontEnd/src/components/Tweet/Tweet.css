@@ -1,0 +1,27 @@
+.twitter-tweet{
+    text-align:center;
+    margin: 2.5vh auto 2.5vh auto;
+}
+@media screen and (max-width: 1000px) {
+  .twitter-tweet{
+      margin: auto;
+  }
+}
+@media screen and (max-width: 612px) {
+    .twitter-tweet{
+        width: 450px;
+        padding: 0;
+        text-align:center;
+        margin: auto;
+    }
+  }
+  @media screen and (max-width: 503px) {
+    .twitter-tweet{
+        width: 400px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .twitter-tweet{
+        width: 345px;
+    }
+  }

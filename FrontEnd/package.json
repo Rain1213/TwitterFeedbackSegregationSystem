@@ -1,0 +1,57 @@
+{
+  "name": "tfss",
+  "version": "0.1.0",
+  "private": true,
+  "browser": {
+    "net": "net-browserify"
+  },
+  "dependencies": {
+    "@datastructures-js/priority-queue": "^5.0.2",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^2.9.4",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^2.11.1",
+    "react-dom": "^17.0.2",
+    "react-jvectormap": "0.0.16",
+    "react-loader-spinner": "^4.0.0",
+    "react-loading": "^2.0.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "react-spinners": "^0.10.6",
+    "react-tweet-embed": "^1.2.2",
+    "socket.io-client": "^4.0.1",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typed/node": "^6.7.0",
+    "@types/react": "^17.0.3",
+    "immer": "8.0.1"
+  }
+}

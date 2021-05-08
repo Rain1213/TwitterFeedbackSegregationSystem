@@ -1,0 +1,44 @@
+@keyframes rotateGlass {
+    0% {
+      
+        /* transform: translateZ(500px) */
+    }
+    12%{
+        transform: translateY(-180px)
+    }
+    25%{
+        transform: translateY(100px)
+    }
+    32%{
+        transform: translateX(170px)
+    }
+    50%{
+        transform: translateY(-150px)
+    }
+    62%{
+        transform: translateX(-170px)
+    }
+    75% {
+        transform: translateX(100px)
+    }
+    87%{
+        transform: translateY(200px)
+    }
+    100%{
+        
+    }
+  }
+  .loadingSvg{
+    max-width: 100%;
+    height: auto;
+  }
+  @media screen and (max-width: 1000px) {
+    .loadingSvg{
+        margin-top: 3vh;
+      }
+}
+  #magnifyingGlass{
+    animation: rotateGlass 5s infinite linear;
+    /* transform-origin: center; */
+    transform-box: fill-box;
+  }
